@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: organization-manager
+  data:
+    mongodb:
+      #host: 10.100.30.174
+      #port: 27017
+      #database: dev_k12x
+      #username: k12xdevadmin
+      #password: Hdgvavhf@5678
+      host: ds117691.mlab.com
+      port: 17691
+      database: k12x-dev
+      username: vkum985
+      password: vkum985
+
+server:
+  port: 9012
+
+logging:
+  level:
+    com:
+      pearson:
+        sam:
+          organization: INFO
+    root: INFO
+    org:
+      springframework: INFO

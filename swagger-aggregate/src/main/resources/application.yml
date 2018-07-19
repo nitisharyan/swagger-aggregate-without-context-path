@@ -1,0 +1,8 @@
+swagger:
+  resources:
+    - name: Schools
+      url: http://localhost:9011/v2/api-docs
+      version: 1.0
+    - name: Organizations
+      url: http://localhost:9012/v2/api-docs
+      version: 1.0
