@@ -3,11 +3,6 @@ spring:
     name: school-manager
   data:
     mongodb:
-      #host: 10.100.30.174
-      #port: 27017
-      #database: dev_k12x
-      #username: k12xdevadmin
-      #password: Hdgvavhf@5678
       host: ds117691.mlab.com
       port: 17691
       database: k12x-dev
@@ -20,7 +15,7 @@ server:
 logging:
   level:
     com:
-      pearson:
+      person:
         sam:
           school: INFO
     root: INFO
