@@ -16,8 +16,7 @@ logging:
   level:
     com:
       person:
-        sam:
-          organization: INFO
+        organization: INFO
     root: INFO
     org:
       springframework: INFO
